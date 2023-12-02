@@ -8,10 +8,9 @@ const listaPropiedades = (propiedades, idContainer) => {
 
   listaLimitada.forEach((propiedad) => {
     const card = document.createElement("div");
-    card.className = "row";
+    card.className = "col-md-4 mb-4";
 
     const cardContent = `
-    <div class="col-md-4 mb-4">
     <div class="card">
     <img src=" ${propiedad.src} " class="card-img-top" alt="${
       propiedad.nombre
