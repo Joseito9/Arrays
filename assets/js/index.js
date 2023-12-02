@@ -21,9 +21,9 @@ const listaPropiedades = (propiedades, idContainer) => {
     <p><i class="fas fa-map-marker-alt"></i>${propiedad.ubicacion}</p>
     <p><i class="fas fa-bed"></i>${
       propiedad.habitaciones
-    } |<i class="fas fa-bath"></i>{" "}${propiedad.baños}</p>
+    } |<i class="fas fa-bath"></i>${propiedad.baños}</p>
     <p><i class="fas fa-dollar-sign"></i>${propiedad.costo.toLocaleString(
-      "CLP"
+      "es-CL"
     )}</p>
     <p class="${propiedad.smoke ? "text-success" : "text-danger"}"> 
     <i class="fas ${propiedad.smoke ? "fa-smoking" : "fa-smoking-ban"}"></i>

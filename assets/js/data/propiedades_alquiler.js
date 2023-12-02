@@ -65,7 +65,7 @@ const propiedadesAlquiler = [
       "Casa nueva con 4 habitaciones y 3 baños a pocos pasos del metro",
     ubicacion: "Greenville Polo & Resort, CA 97777",
     habitaciones: 4,
-    costo: 3,
+    costo: 3000,
     smoke: true,
     pets: true,
   },
