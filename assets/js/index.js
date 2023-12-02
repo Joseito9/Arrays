@@ -16,8 +16,8 @@ const listaPropiedades = (propiedades, idContainer) => {
       propiedad.nombre
     }" />
     <div class="card-body">
-    <h5 class="card-title"></h5>
-    <p class="card-text"></p>
+    <h5 class="card-title">${propiedad.nombre}</h5>
+    <p class="card-text">${propiedad.descripcion}</p>
     <p><i class="fas fa-map-marker-alt"></i>${propiedad.ubicacion}</p>
     <p><i class="fas fa-bed"></i>${
       propiedad.habitaciones
